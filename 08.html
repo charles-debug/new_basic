@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div-container{
+            position: absolute;
+            left: 50px;
+            top: 50px;
+            width: 500px;
+            height: 200px;
+            line-height: 200px;
+            box-sizing: border-box;
+            border: 1px solid #cccccc;
+            background-color: palegoldenrod;
+            font-size: 0;
+        }
+
+        .div-inline{
+            display: inline-block;
+            width: 50px;
+            height: 100px;
+            vertical-align: middle;
+            background-color: red;
+            margin-left: 10px;
+        }
+
+        .div-inline:first-child{
+            margin-left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div-container">
+        <div class="div-inline"></div>
+        <div class="div-inline"></div>
+        <div class="div-inline"></div>
+        <div class="div-inline"></div>
+        <div class="div-inline"></div>
+        <div class="div-inline"></div>
+        <div class="div-inline"></div>
+        <div class="div-inline"></div>
+    </div>
+</body>
+</html>
